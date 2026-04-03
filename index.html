@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>云南自驾游12天行程表</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Microsoft YaHei', sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; border-radius: 20px; overflow: hidden; }
+        .header { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 40px; text-align: center; }
+        .header h1 { font-size: 2.5em; margin-bottom: 10px; }
+        .day-section { border-bottom: 2px solid #f0f0f0; padding: 30px; }
+        .day-header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px 25px; border-radius: 10px; margin-bottom: 20px; }
+        .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin-bottom: 20px; }
+        .info-item { background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #667eea; }
+        .info-label { font-weight: bold; color: #667eea; margin-bottom: 5px; }
+        .section-title { font-size: 1.4em; color: #333; margin: 20px 0 15px; padding-bottom: 10px; border-bottom: 2px solid #667eea; }
+        .attractions-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-bottom: 20px; }
+        .attraction-card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .attraction-images { display: grid; grid-template-columns: repeat(2, 1fr); gap: 5px; padding: 5px; }
+        .attraction-images img { width: 100%; height: 150px; object-fit: cover; border-radius: 8px; }
+        .attraction-info { padding: 15px; }
+        .attraction-name { font-size: 1.2em; font-weight: bold; color: #333; margin-bottom: 8px; }
+        .attraction-desc { color: #666; font-size: 0.95em; }
+        .food-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .food-card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .food-images { display: grid; grid-template-columns: repeat(2, 1fr); gap: 5px; padding: 5px; }
+        .food-images img { width: 100%; height: 180px; object-fit: cover; border-radius: 8px; }
+        .food-info { padding: 15px; }
+        .food-name { font-size: 1.1em; font-weight: bold; color: #f5576c; margin-bottom: 5px; }
+        .food-restaurant { color: #666; font-size: 0.9em; }
+        .parking-info { background: #e3f2fd; padding: 15px; border-radius: 8px; margin-top: 15px; border-left: 4px solid #2196f3; }
+        .parking-title { font-weight: bold; color: #1976d2; margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏔️ 云南自驾游12天行程表</h1>
+            <p>昆明-大理-腾冲-丽江-香格里拉 | 深度体验云南美景与美食</p>
+        </div>
+
+        <!-- Day 1 -->
+        <div class="day-section">
+            <div class="day-header"><strong>Day 1:</strong> 各地 → 昆明（落地租车）</div>
+            <div class="info-grid">
+                <div class="info-item"><div class="info-label">住宿地</div><div>昆明（推荐：南屏街 / 翠湖周边）</div></div>
+            </div>
+            <div class="section-title">🎯 核心景点</div>
+            <div class="attractions-grid">
+                <div class="attraction-card">
+                    <div class="attraction-images">
+                        <img src="image/昆明翠湖.jpeg" alt="翠湖公园">
+                        <img src="image/昆明老街图片.jpg" alt="昆明老街">
+                        <img src="image/昆明东川红土地.jpeg" alt="昆明风景">
+                    </div>
+                    <div class="attraction-info">
+                        <div class="attraction-name">翠湖公园</div>
+                        <div class="attraction-desc">下午游览，银杏初黄，拍摄民国建筑</div>
+                    </div>
+                </div>
+                <div class="attraction-card">
+                    <div class="attraction-images">
+                        <img src="image/昆明南屏街.jpg" alt="南屏街">
+                        <img src="image/昆明南屏街1.jpeg" alt="南屏街夜景">
+                    </div>
+                    <div class="attraction-info">
+                        <div class="attraction-name">南屏街</div>
+                        <div class="attraction-desc">晚上逛吃，体验昆明夜生活</div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-title">🍜 特色美食</div>
+            <div class="food-grid">
+                <div class="food-card">
+                    <div class="food-images">
+                        <img src="image/昆明过桥米线.jpeg" alt="过桥米线">
+                        <img src="image/昆明过桥米线.jpeg" alt="过桥米线">
+                    </div>
+                    <div class="food-info">
+                        <div class="food-name">过桥米线</div>
+                        <div class="food-restaurant">建新园（南屏街店）</div>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <div class="food-images">
+                        <img src="image/昆明汽锅鸡.jpeg" alt="汽锅鸡">
+                        <img src="image/昆明汽锅鸡.jpeg" alt="汽锅鸡">
+                    </div>
+                    <div class="food-info">
+                        <div class="food-name">滇味汽锅鸡</div>
+                        <div class="food-restaurant">福照楼（正义路店）</div>
+                    </div>
+                </div>
+            </div>
+            <div class="parking-info">
+                <div class="parking-title">🅿️ 停车建议</div>
+                <div>1. 翠湖公园：东门停车场（10元/小时）</div>
+                <div>2. 南屏街：柏联广场地下停车场（8元/小时）</div>
+            </div>
+        </div>
+
+        <!-- Day 2 -->
+        <div class="day-section">
+            <div class="day-header"><strong>Day 2:</strong> 昆明市区游玩</div>
+            <div class="info-grid">
+                <div class="info-item"><div class="info-label">住宿地</div><div>昆明（同D1）</div></div>
+            </div>
+            <div class="section-title">🎯 核心景点</div>
+            <div class="attractions-grid">
+                <div class="attraction-card">
+                    <div class="attraction-images">
+                        <img src="image/昆明滇池.jpeg" alt="滇池">
+                        <img src="image/昆明滇池.jpeg" alt="滇池">
+                    </div>
+                    <div class="attraction-info">
+                        <div class="attraction-name">滇池海埂大坝</div>
+                        <div class="attraction-desc">上午游览，观赏红嘴鸥先头部队</div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-title">🍜 特色美食</div>
+            <div class="food-grid">
+                <div class="food-card">
+                    <div class="food-images">
+                        <img src="image/昆明野生菌火锅.jpg" alt="野生菌">
+                        <img src="image/昆明野生菌火锅.jpg" alt="野生菌">
+                    </div>
+                    <div class="food-info">
+                        <div class="food-name">野生菌炒饭</div>
+                        <div class="food-restaurant">滇铺子（滇池店）</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 3 -->
+        <div class="day-section">
+            <div class="day-header"><strong>Day 3:</strong> 昆明 → 大理（杭瑞高速）约3.5h（160km）</div>
+            <div class="info-grid">
+                <div class="info-item"><div class="info-label">住宿地</div><div>大理（推荐：洱海西岸才村 / 龙龛）</div></div>
+            </div>
+            <div class="section-title">🎯 核心景点</div>
+            <div class="attractions-grid">
+                <div class="attraction-card">
+                    <div class="attraction-images">
+                        <img src="image/大理古城.jpeg" alt="大理古城">
+                        <img src="image/大理古城1.jpg" alt="大理古城">
+                        <img src="image/大理3塔.jpeg" alt="大理三塔">
+                    </div>
+                    <div class="attraction-info">
+                        <div class="attraction-name">大理古城</div>
+                        <div class="attraction-desc">下午游览，逛人民路、洋人街</div>
+                    </div>
+                </div>
+                <div class="attraction-card">
+                    <div class="attraction-images">
+                        <img src="image/大理洱海.jpeg" alt="洱海">
+                        <img src="image/大理洱海1.jpeg" alt="洱海">
+                    </div>
+                    <div class="attraction-info">
+                        <div class="attraction-name">才村码头</div>
+                        <div class="attraction-desc">傍晚观赏洱海日落</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 4 -->
+        <div class="day-section">
+            <div class="day-header"><strong>Day 4:</strong> 大理环洱海全天 约3h（环海全程130km）</div>
+            <div class="info-grid">
+                <div class="info-item"><div class="info-label">住宿地</div><div>大理（同D3）</div></div>
+            </div>
+            <div class="section-title">🎯 核心景点</div>
+            <div class="attractions-grid">
+                <div class="attraction-card">
+                    <div class="attraction-images">
+                        <img src="image/大理古城.jpeg" alt="喜洲古镇">
+                        <img src="image/大理古城1.jpg" alt="喜洲古镇">
+                    </div>
+                    <div class="attraction-info">
+                        <div class="attraction-name">喜洲古镇</div>
+                        <div class="attraction-desc">上午游览，看金黄稻田、严家大院，体验扎染</div>
+                    </div>
+                </div>
+                <div class="attraction-card">
+                    <div class="attraction-images">
+                        <img src="image/大理洱海.jpeg" alt="双廊古镇">
+                        <img src="image/大理洱海1.jpeg" alt="双廊古镇">
+                    </div>
+                    <div class="attraction-info">
+                        <div class="attraction-name">双廊古镇</div>
+                        <div class="attraction-desc">下午打卡太阳宫/月亮宫，登玉几岛观全景</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 5 -->
+        <div class="day-section">
+            <div class="day-header"><strong>Day 5:</strong> 大理 → 腾冲（保腾高速）约4.5h（230km）</div>
+            <div class="info-grid">
+                <div class="info-item"><div class="info-label">住宿地</div><div>腾冲（推荐：和顺古镇内）</div></div>
+            </div>
+            <div class="section-title">🎯 核心景点</div>
+            <div class="attractions-grid">
+                <div class="attraction-card">
+                    <div class="attraction-images">
+                        <img src="image/大理古城.jpeg" alt="和顺古镇">
+                        <img src="image/大理古城1.jpg" alt="和顺古镇">
+                    </div>
+                    <div class="attraction-info">
+                        <div class="attraction-name">和顺古镇</div>
+                        <div class="attraction-desc">晚上逛夜景，走野鸭湖栈道，泡古镇温泉</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 6 -->
+        <div class="day-section">
+            <div class="day-header"><strong>Day 6:</strong> 腾冲核心景点游 约1h（景区间30km）</div>
+            <div class="info-grid">
+                <div class="info-item"><div class="info-label">住宿地</div><div>腾冲（同D5）</div></div>
+            </div>
+            <div class="section-title">🎯 核心景点</div>
+            <div class="attractions-grid">
+                <div class="attraction-card">
+                    <div class="attraction-images">
+                        <img src="image/大理洱海.jpeg" alt="热海景区">
+                        <img src="image/大理洱海1.jpeg" alt="热海景区">
+                    </div>
+                    <div class="attraction-info">
+                        <div class="attraction-name">热海景区</div>
+                        <div class="attraction-desc">上午游览，看大滚锅、怀胎井，体验硫磺泉泡脚</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 7 -->
+        <div class="day-section">
+            <div class="day-header"><strong>Day 7:</strong> 腾冲 → 丽江（大丽高速）约6h（300km）</div>
+            <div class="info-grid">
+                <div class="info-item"><div class="info-label">住宿地</div><div>丽江（推荐：古城周边 / 束河古镇）</div></div>
+            </div>
+            <div class="section-title">🎯 核心景点</div>
+            <div class="attractions-grid">
+                <div class="attraction-card">
+                    <div class="attraction-images">
+                        <img src="image/丽江古城.jpeg" alt="丽江古城">
+                        <img src="image/丽江古城 (2).jpeg" alt="丽江古城">
+                    </div>
+                    <div class="attraction-info">
+                        <div class="attraction-name">丽江古城</div>
+                        <div class="attraction-desc">下午抵达丽江后休整，晚上逛丽江古城（四方街、大水车）</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 8 -->
+        <div class="day-section">
+            <div class="day-header"><strong>Day 8:</strong> 丽江全天（玉龙雪山 + 蓝月谷）约1h（市区→雪山30km）</div>
+            <div class="info-grid">
+                <div class="info-item"><div class="info-label">住宿地</div><div>丽江（同D7）</div></div>
+            </div>
+            <div class="section-title">🎯 核心景点</div>
+            <div class="attractions-grid">
+                <div class="attraction-card">
+                    <div class="attraction-images">
+                        <img src="image/玉龙雪山.jpeg" alt="玉龙雪山">
+                        <img src="image/玉龙雪山 (2).jpeg" alt="玉龙雪山">
+                        <img src="image/玉龙雪山1.jpeg" alt="玉龙雪山">
+                    </div>
+                    <div class="attraction-info">
+                        <div class="attraction-name">玉龙雪山</div>
+                        <div class="attraction-desc">上午乘大索道登4680m冰川公园，带氧气瓶</div>
+                    </div>
+                </div>
+                <div class="attraction-card">
+                    <div class="attraction-images">
+                        <img src="image/蓝月谷.jpeg" alt="蓝月谷">
+                        <img src="image/蓝月谷.jpeg" alt="蓝月谷">
+                    </div>
+                    <div class="attraction-info">
+                        <div class="attraction-name">蓝月谷</div>
+                        <div class="attraction-desc">下午拍湛蓝湖水，走湖边栈道</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 9 -->
+        <div class="day-section">
+            <div class="day-header"><strong>Day 9:</strong> 丽江 → 香格里拉（丽香高速）约2.5h（180km）</div>
+            <div class="info-grid">
+                <div class="info-item"><div class="info-label">住宿地</div><div>香格里拉（推荐：独克宗古城内）</div></div>
+            </div>
+            <div class="section-title">🎯 核心景点</div>
+            <div class="attractions-grid">
+                <div class="attraction-card">
+                    <div class="attraction-images">
+                        <img src="image/虎跳峡1.jpg" alt="虎跳峡">
+                        <img src="image/虎跳峡2.jpeg" alt="虎跳峡">
+                    </div>
+                    <div class="attraction-info">
+                        <div class="attraction-name">虎跳峡</div>
+                        <div class="attraction-desc">中途看湍急江水，10月水量足，走下虎跳栈道</div>
+                    </div>
+                </div>
+                <div class="attraction-card">
+                    <div class="attraction-images">
+                        <img src="image/赞林寺.jpeg" alt="松赞林寺">
+                        <img src="image/赞林寺.jpeg" alt="松赞林寺">
+                    </div>
+                    <div class="attraction-info">
+                        <div class="attraction-name">松赞林寺</div>
+                        <div class="attraction-desc">晚上转世界最大转经筒，逛月光广场</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 10-12 简化 -->
+        <div class="day-section">
+            <div class="day-header"><strong>Day 10:</strong> 香格里拉 → 楚雄 约4.5h（320km）</div>
+            <div class="info-grid">
+                <div class="info-item"><div class="info-label">住宿地</div><div>楚雄（推荐：彝人古镇周边）</div></div>
+            </div>
+        </div>
+
+        <div class="day-section">
+            <div class="day-header"><strong>Day 11:</strong> 楚雄 → 昆明 约2h（160km）</div>
+            <div class="info-grid">
+                <div class="info-item"><div class="info-label">住宿地</div><div>昆明（推荐：长水机场 / 高铁站周边）</div></div>
+            </div>
+        </div>
+
+        <div class="day-section">
+            <div class="day-header"><strong>Day 12:</strong> 昆明 → 各地（还车返程）</div>
+            <div class="parking-info">
+                <div class="parking-title">🅿️ 停车建议</div>
+                <div>租车点：长水机场租车区（专用停车区，还车便捷）</div>
+            </div>
+        </div>
+
+        <div style="background: #333; color: white; padding: 30px; text-align: center;">
+            <p>🏔️ 云南自驾游12天行程表 | 昆明-大理-腾冲-丽江-香格里拉</p>
+            <p style="margin-top: 10px; opacity: 0.8;">深度体验云南美景与美食</p>
+        </div>
+    </div>
+</body>
+</html>
